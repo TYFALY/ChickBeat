@@ -42,7 +42,7 @@ Instead of manually slicing and crossfading 10 separate audio cues in a DAW, you
 
 | Event Cue | Output File | Target Duration | Fade Setting | Selection Logic |
 | :--- | :--- | :---: | :---: | :--- |
-| **Main Menu** | `mainmenu.wav` | ~30s (Loopable) | 1.0s In / 1.0s Out | Mid-energy ambient verse or chorus |
+| **Main Menu** | `mainmenu.wav` |(Loopable) | 1.0s In / 1.0s Out | Mid-energy ambient verse or chorus |
 | **Freeze Time** | `roundmvpanthem_01.wav` | 15s | 0.8s In / 0.5s Out | Intro or lower-energy build section |
 | **Round Start** | `roundstart.wav` | 5s | Instant / 1.0s Out | Immediate impact transient or drop |
 | **Round Action** | `roundaction.wav` | 30s | 1.0s In / 1.0s Out | Sustained rhythmic section |
