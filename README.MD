@@ -1,5 +1,7 @@
 <div align="center">
 
+![ChickBeat Banner](./ChickBeat-Banner.png)
+
 # ChickBeat
 
 **A lightweight, GSI-compliant CS2 custom music kit creator and real-time manager.**
