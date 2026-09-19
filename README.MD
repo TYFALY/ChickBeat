@@ -4,18 +4,20 @@
 
 # ChickBeat
 
-**CS2 Custom Music Kit Generator | Counter-Strike 2 GSI Utility | Free Custom MVP Anthems**
+**A lightweight Counter-Strike 2 GSI utility and custom music kit generator for free custom MVP anthems.**
 
-[![Release](https://img.shields.io/github/v/release/TYFALY/ChickBeat?style=flat-square&color=E63946&label=Release)](https://github.com/TYFALY/ChickBeat/releases/latest)  
-[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/8.0)  
-[![Platform](https://img.shields.io/badge/Platform-Windows_x64-27272A?style=flat-square&logo=windows&logoColor=white)](https://github.com/TYFALY/ChickBeat/releases/latest)  
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-394EFF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed)  
-[![GitHub Stars](https://img.shields.io/github/stars/TYFALY/ChickBeat?style=flat-square&label=Stars&color=gold)](https://github.com/TYFALY/ChickBeat/stargazers)  
+[![Release](https://img.shields.io/github/v/release/TYFALY/ChickBeat?style=flat-square&color=E63946&label=Release)](https://github.com/TYFALY/ChickBeat/releases/latest)
+[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/8.0)
+[![Platform](https://img.shields.io/badge/Platform-Windows_x64-27272A?style=flat-square&logo=windows&logoColor=white)](https://github.com/TYFALY/ChickBeat/releases/latest)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-394EFF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed)
+[![GitHub Stars](https://img.shields.io/github/stars/TYFALY/ChickBeat?style=flat-square&label=Stars&color=gold)](https://github.com/TYFALY/ChickBeat/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/TYFALY/ChickBeat?style=flat-square&label=Forks&color=blue)](https://github.com/TYFALY/ChickBeat/network/members)
 
-[**Download Latest .exe**](https://github.com/TYFALY/ChickBeat/releases/latest) · [VirusTotal Report](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed) · [Issues & Feedback](https://github.com/TYFALY/ChickBeat/issues)
+<br />
 
-[CS2 custom music kit](#core-features) · [CS2 custom MVP sound](#trust--anti-cheat-compliance) · [Counter-Strike 2 music kit creator](#installation--usage) · [CS2 GSI audio manager](#tech-stack) · [CS2 jukebox alternative](#feedback)
+[**Download Latest .exe**](https://github.com/TYFALY/ChickBeat/releases/latest) · [VirusTotal Report](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed) · [Report Issue](https://github.com/TYFALY/ChickBeat/issues)
+
+[Features](#core-features) · [Installation](#installation--usage) · [Trust & Anti-Cheat](#trust--anti-cheat-compliance) · [Tech Stack](#tech-stack)
 
 </div>
 
