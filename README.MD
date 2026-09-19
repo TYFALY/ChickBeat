@@ -4,16 +4,18 @@
 
 # ChickBeat
 
-**A lightweight, GSI-compliant CS2 custom music kit creator and real-time manager.**
+**CS2 Custom Music Kit Generator | Counter-Strike 2 GSI Utility | Free Custom MVP Anthems**
 
-<br />
+[![Release](https://img.shields.io/github/v/release/TYFALY/ChickBeat?style=flat-square&color=E63946&label=Release)](https://github.com/TYFALY/ChickBeat/releases/latest)  
+[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/8.0)  
+[![Platform](https://img.shields.io/badge/Platform-Windows_x64-27272A?style=flat-square&logo=windows&logoColor=white)](https://github.com/TYFALY/ChickBeat/releases/latest)  
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-394EFF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed)  
+[![GitHub Stars](https://img.shields.io/github/stars/TYFALY/ChickBeat?style=flat-square&label=Stars&color=gold)](https://github.com/TYFALY/ChickBeat/stargazers)  
+[![GitHub Forks](https://img.shields.io/github/forks/TYFALY/ChickBeat?style=flat-square&label=Forks&color=blue)](https://github.com/TYFALY/ChickBeat/network/members)
 
-[![Release](https://img.shields.io/github/v/release/TYFALY/ChickBeat?style=flat-square&color=E63946&label=Release)](https://github.com/TYFALY/ChickBeat/releases/latest)
-[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/8.0)
-[![Platform](https://img.shields.io/badge/Platform-Windows_x64-27272A?style=flat-square&logo=windows&logoColor=white)](https://github.com/TYFALY/ChickBeat/releases/latest)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-394EFF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed)
+[**Download Latest .exe**](https://github.com/TYFALY/ChickBeat/releases/latest) · [VirusTotal Report](https://www.virustotal.com/gui/file/7ce4c70670894c63b881419da725cc1f104229fd83f90bcc85615f05e1a177ed) · [Issues & Feedback](https://github.com/TYFALY/ChickBeat/issues)
 
-[Features](#core-features) · [Trust & Anti-Cheat](#trust--anti-cheat-compliance) · [Installation](#installation--usage) · [Tech Stack](#tech-stack) · [Feedback](#feedback)
+[CS2 custom music kit](#core-features) · [CS2 custom MVP sound](#trust--anti-cheat-compliance) · [Counter-Strike 2 music kit creator](#installation--usage) · [CS2 GSI audio manager](#tech-stack) · [CS2 jukebox alternative](#feedback)
 
 </div>
 
@@ -21,11 +23,30 @@
 
 ## Core Features
 
-- **GSI Engine:** Powered by Valve's official Game State Integration. It is driven by HTTP payloads from the game, with no memory hooking and no game file modification.
-- **Direct URL Importer:** Auto-generate music kits directly from YouTube, Spotify, or audio links, with FFmpeg and yt-dlp handled automatically. RMS energy profiling maps the highest-energy sections (drops, choruses) to high-impact events like the MVP anthem and round start, and lower-energy sections (intros, verses, breakdowns) to events like death and menu ambience.
-- **Kit Creator:** Individual stem volume adjustments, an 800 ms smooth audio fade-out engine, and real-time NAudio preview.
-- **Minimal Footprint:** Optimized memory management (under 40 MB RAM) for zero FPS impact in-game.
-- **Portable Single Binary:** A self-contained executable. No installer needed.
+| Feature | Description |
+|---------|-------------|
+| **Instant Link-to-Kit** | Direct conversion from YouTube/Spotify URLs via yt-dlp & FFmpeg with automated RMS energy mapping (drops/choruses to MVP & Round Start). |
+| **Precision Stem Controls** | Per-channel volume sliders, 800ms fade-out engine on event stops, real-time NAudio preview. |
+| **VAC Safe & Zero Memory Footprint** | 100% official Game State Integration (GSI) via HTTP payloads. No memory hooking, no game file editing, <40MB RAM usage. |
+| **Standalone Binary** | Single self-contained Windows executable (.exe). No installer or complex setup required. |
+
+---
+
+## Installation & Usage
+
+1. **Download** `ChickBeat.exe` from [GitHub Releases](https://github.com/TYFALY/ChickBeat/releases/latest).
+2. **Run** the executable (handle SmartScreen warning if unsigned binary).
+3. **Click "Equip"** on a kit, or create custom kits with the Kit Creator.
+
+### How It Works In-Game
+
+ChickBeat leverages Valve's official Game State Integration (GSI) to automatically trigger audio events without injecting into `cs2.exe`:
+
+- **MVP Anthem:** Fires when GSI detects a killcam event
+- **10-Second Bomb Warnings:** Triggers on timer countdown states from game HTTP payloads
+- **Round Start Tracks:** Activates at round initialization signals via GSI state changes
+
+Data flow: CS2 → GSI HTTP payloads → ChickBeat processor → NAudio output. Nothing touches the game executable or memory space.
 
 ---
 
@@ -77,19 +98,13 @@ Get-FileHash .\ChickBeat.exe -Algorithm SHA256
 
 ---
 
-## Installation & Usage
-
-1. **Download** `ChickBeat.exe` from [GitHub Releases](https://github.com/TYFALY/ChickBeat/releases/latest).
-2. **Run** the executable. FFmpeg and yt-dlp dependencies are handled automatically on first use, or via `%AppData%/ChickBeat/tools/`.
-3. **Click "Equip"** on a kit, or create custom kits with the Kit Creator.
-
----
-
 ## Tech Stack
 
 - **C# / .NET 8**
-- **[Avalonia UI 11](https://avaloniaui.net/):** cross-platform UI framework
+- **[Avalonia UI 11](https://avaloniaui.net):** cross-platform UI framework
 - **[NAudio](https://github.com/naudio/NAudio):** audio processing pipeline
+- **yt-dlp:** YouTube/Spotify URL parsing and audio extraction
+- **FFmpeg:** Audio transcoding and stem separation
 
 ---
 
