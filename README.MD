@@ -9,7 +9,7 @@
 [![Release](https://img.shields.io/github/v/release/TYFALY/ChickBeat?style=flat-square&color=E63946&label=Release)](https://github.com/TYFALY/ChickBeat/releases/latest)
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/8.0)
 [![Platform](https://img.shields.io/badge/Platform-Windows_x64-27272A?style=flat-square&logo=windows&logoColor=white)](https://github.com/TYFALY/ChickBeat/releases/latest)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-394EFF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/b7f7af6e952595304dccd7da9678fd2ecbda48bfbcc55b21f7e66e8ab72c3c71)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-394EFF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/ff1a9511139b7d753a94566c72d23dbc45d59ee492f02de98cab99cbb5349c7e/details)
 [![GitHub Stars](https://img.shields.io/github/stars/TYFALY/ChickBeat?style=flat-square&label=Stars&color=gold)](https://github.com/TYFALY/ChickBeat/stargazers)
 
 <br />
