@@ -89,7 +89,7 @@ The first launch may show **"Windows protected your PC"**. This is expected for 
 The [VirusTotal report](https://www.virustotal.com/gui/file/b7f7af6e952595304dccd7da9678fd2ecbda48bfbcc55b21f7e66e8ab72c3c71) is for the file with this SHA-256:
 
 ```text
-b7f7af6e952595304dccd7da9678fd2ecbda48bfbcc55b21f7e66e8ab72c3c71
+ff1a9511139b7d753a94566c72d23dbc45d59ee492f02de98cab99cbb5349c7e
 ```
 
 Check that your download matches:
